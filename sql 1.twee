@@ -1,0 +1,291 @@
+:: StoryTitle
+sql 1
+
+
+:: StoryData
+{
+  "ifid": "650ee186-3480-4628-872d-510ff478cae0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "start1",
+  "zoom": 1
+}
+
+
+:: DBbrowser {"position":"1000,400","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Установка и настройка SQLDBBrowser (например, DB Browser for SQLite):
+	1.	Скачивание и установка:
+	•	Перейдите на официальный сайт DB Browser for SQLite и скачайте версию для вашей операционной системы (Windows, macOS, Linux).
+	•	Запустите установочный файл и следуйте инструкциям мастера установки.
+	2.	Запуск приложения:
+	•	После установки откройте DB Browser for SQLite (или другой аналогичный инструмент SQLDBBrowser).
+	3.	Создание/открытие базы данных:
+	•	Для создания новой базы данных выберите “New Database” и укажите имя и расположение файла.
+	•	Для работы с существующей базой данных выберите “Open Database” и откройте файл SQLite.
+	4.	Работа с таблицами и данными:
+	•	Используйте вкладки “Browse Data” для просмотра и редактирования данных.
+	•	Для создания таблиц, индексов или выполнения запросов перейдите в вкладку “Database Structure” или “Execute SQL”.
+	5.	Настройка подключения (если необходимо):
+	•	Если используете другие СУБД (например, MySQL), настройте подключение через “File” → “Connect to Database” и введите данные для подключения.
+Теперь вы можете редактировать, создавать и управлять базами данных через графический интерфейс SQLDBBrowser.
+[[обратно|Как установть?]]
+</div>]]
+
+
+:: SQLDBBrowser {"position":"200,550","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[
+[[определения]]
+[[функционал]]
+ [[обратно|start]]
+</div>]
+
+
+:: liberoffice Base {"position":"500,450","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[
+[[определение]]
+[[как в нём работать? ]]
+ [[обратно|start]]
+</div>]
+
+
+:: liberofficeBase {"position":"900,200","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Установка LibreOffice:
+	•	Перейдите на официальный сайт LibreOffice и скачайте установочный файл для вашей операционной системы (Windows, macOS, Linux).
+	•	Запустите установочный файл и следуйте инструкциям мастера установки.
+	2.	Запуск LibreOffice Base:
+	•	После установки откройте LibreOffice и выберите Base из списка доступных приложений.
+	3.	Создание новой базы данных:
+	•	При первом запуске выберите опцию “Создать новую базу данных”.
+	•	Укажите имя и путь для сохранения файла базы данных.
+	4.	Настройка подключения к внешней СУБД (если нужно):
+	•	В меню “Инструменты” выберите “Сведения о базе данных”.
+	•	Для подключения к MySQL, PostgreSQL или другой СУБД выберите соответствующий тип подключения (через ODBC или JDBC) и укажите данные подключения (хост, порт, имя пользователя, пароль).
+	5.	Создание таблиц и объектов базы данных:
+	•	В левой панели выберите “Таблицы”, затем “Создать таблицу” для добавления данных.
+	•	Для создания запросов, форм и отчетов используйте соответствующие вкладки на панели инструментов.
+Теперь вы можете начать работать с базой данных, добавлять таблицы, выполнять запросы и генерировать отчеты.
+[[обратно|Как установть?]]]
+</div>]
+
+
+:: start {"position":"400,300","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[Приветсвую $fio, сегодня я хочу рассказать про SQL!
+---
+[[SQLDBBrowser]]
+[[Как установть?]]
+[[Синатксис]]
+[[liberoffice Base]]
+[[конец урока]]]
+</div>
+
+
+:: start1 {"position":"400,150","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+
+  (set: $fio to(prompt:"Как вас зовут?", ""))
+(text-colour:black)[[[Продолжим|start]]
+</div>]
+
+
+
+
+:: Как установть? {"position":"700,300","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[
+[[liberofficeBase]]
+[[DBbrowser]]
+[[вернутся обратно|start]]]
+</div>]
+
+
+
+
+
+
+
+
+:: Синатксис {"position":"800,500","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[SELECT [столбцы]
+FROM [таблица]
+WHERE [условие]
+GROUP BY [столбец]
+HAVING [условие]
+ORDER BY [столбец]
+LIMIT [количество];
+Пример:
+
+SELECT name, salary
+FROM employees
+WHERE department = 'IT'
+ORDER BY salary DESC
+LIMIT 10;
+Этот запрос выбирает имена и зарплаты сотрудников из отдела "IT", сортирует их по зарплате в порядке убывания и ограничивает результат первыми 10 записями.
+[[вернутся обратно|start]]
+</div>]
+
+
+
+:: да {"position":"100,400","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[Спасибо я старалась! :)
+[[конец]]]
+</div>
+
+
+:: как в нём работать?\  {"position":"600,600","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Основные функции:
+	1.	Создание и управление базами данных: Создание новых баз данных и работа с существующими.
+	2.	Таблицы и запросы: Создание таблиц и выполнение SQL-запросов для поиска и обновления данных.
+	3.	Формы и отчеты: Создание форм для ввода данных и отчетов на основе информации из базы.
+	4.	Интеграция с другими приложениями: Поддержка работы с файлами в формате CSV, Excel и других.
+	5.	Поддержка различных СУБД: Работа с базами данных через ODBC/JDBC (например, MySQL, PostgreSQL).
+Преимущества:
+	•	Бесплатный и открытый исходный код.
+	•	Простой интерфейс, подходящий для пользователей без опыта работы с базами данных.
+	•	Интеграция с другими компонентами LibreOffice.
+
+[[обратно|liberoffice Base]]]
+</div>
+
+
+:: конец {"position":"0,250","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[Поздравляю, ты прошел мой урок!!!  :)
+</div>]
+
+
+:: конец урока {"position":"225,250","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[тебе понравился урок?
+[[да]]
+[[нет]]]
+</div>
+
+
+:: нет {"position":"100,125","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+
+<div class="transparent-box">
+(text-colour:black)[Грустно :(
+[[конец]]]
+</div>
+
+
+:: определение {"position":"400,600","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[LibreOffice Base — это компонент пакета LibreOffice для создания и управления базами данных. Он позволяет создавать, редактировать и управлять таблицами, запросами, формами и отчетами.
+[[обратно|liberoffice Base]]]
+</div>
+
+
+
+:: определения {"position":"100,750","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[SQLDBBrowser — это графический инструмент для работы с SQL-базами данных. Он позволяет пользователям просматривать, редактировать и управлять данными без необходимости писать SQL-запросы вручную. Поддерживает различные типы баз данных, такие как MySQL, PostgreSQL, SQLite и другие.
+[[обратно|SQLDBBrowser]]]
+</div>
+
+
+:: функционал {"position":"300,750","size":"100,100"}
+<img
+src=https://yougile.com/user-data/95a83b93-9550-413f-b53d-097d5cadea99/IMG_20241011_112938_609.jpg-256-preview@288x224.png>
+</div>
+<div class="transparent-box">
+(text-colour:black)[Основные функции:
+	1.	Просмотр и редактирование данных: Возможность просматривать и редактировать таблицы и записи.
+	2.	Выполнение SQL-запросов: Поддержка выполнения запросов (SELECT, INSERT, UPDATE, DELETE).
+	3.	Экспорт и импорт данных: Экспорт в форматы CSV, Excel и другие; импорт данных из файлов.
+	4.	Работа с индексацией и связями: Управление индексами и внешними ключами.
+	5.	Подключение к удалённым базам данных: Работа с базами данных на удалённых серверах.
+Примеры инструментов: DB Browser for SQLite, MySQL Workbench, DBeaver.
+Преимущества:
+	•	Упрощает работу с базами данных.
+	•	Позволяет работать в реальном времени через графический интерфейс.
+	•	Подходит как для новичков, так и для опытных пользователей.
+    [[обратно|SQLDBBrowser]]]
+</div>
+
+
+
+
+:: StoryStylesheet [stylesheet]
+tw-link
+{
+  color:#ffffff;
+}
+
+tw-story
+{
+  font_family:Arial;
+  font-size: 22px;
+}
+
+tw-story{
+  background-image:url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWOm7e?ver=c5bb&q=0&m=6&h=431&w=767&b=%23FFFFFFFF&l=f&o=t&aim=true");
+  background-size:cover;
+}
+
+.transparent-box {
+border: 5px solid rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
